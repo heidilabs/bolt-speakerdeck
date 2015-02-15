@@ -14,31 +14,6 @@ class Extension extends BaseExtension
     }
 
     /**
-     * Info block for SpeakerDeck Extension.
-     */
-    function info()
-    {
-        $data = array(
-            'name' => "SpeakerDeck",
-            'description' => "An extension to easily add SpeakerDeck presentations",
-            'keywords' => "speakerdeck, slides, presentations, talks",
-            'author' => "erikaheidi",
-            'link' => "http://erikaheidi.com",
-            'version' => "0.1",
-            'required_bolt_version' => "1.4",
-            'highest_bolt_version' => "1.6",
-            'type' => "General",
-            'first_releasedate' => "2014-04-01",
-            'latest_releasedate' => "2014-04-01",
-            'dependencies' => "",
-            'priority' => 10
-        );
-
-        return $data;
-
-    }
-
-    /**
      * Initialize SpeakerDeck. Called during bootstrap phase.
      */
     function initialize()
